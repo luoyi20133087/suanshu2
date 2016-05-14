@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/count_item1" 
+        android:title="帮助"
+        android:showAsAction="always">
+    </item>
+    <item android:id="@+id/count_item2" 
+        android:title="查看正确率"
+        android:showAsAction="always"
+        >
+    </item>
+    <item android:id="@+id/count_item3" android:title="退出测试" android:showAsAction="always"></item>
+    
+
+</menu>

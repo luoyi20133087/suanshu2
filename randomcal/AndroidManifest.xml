@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.team.randomcal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon02"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.team.randomcal.MainActivity"
+            android:label="@string/select_menu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.team.randomcal.homeactivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.team.randomcal.selectActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.team.randomcal.countActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>
